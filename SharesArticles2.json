@@ -1,0 +1,183 @@
+[
+    {
+        "name": "Assault",
+        "children":[
+          [
+            {"share":"fb"}
+          ],
+          [
+            {"share":"fb"}
+          ],
+          [
+            {"share":"twitter"}
+          ],
+          [
+            {"share":"fb"}
+          ],
+          [
+            {"share":"fb"}
+          ],
+          [
+            {"share":"fb"}
+          ],
+          [
+            {"share":"fb"}
+          ],
+          [
+            {"share":"fb"}
+          ],
+          [
+            {"share":"fb"}
+          ],
+          [
+            {"share":"fb"}
+          ],
+          [
+            {"share":"fb"}
+          ],
+          [
+            {"share":"fb"}
+          ],
+          [
+            {"share":"fb"}
+          ],
+          [
+            {"share":"fb"}
+          ],
+          [
+            {"share":"fb"}
+          ],
+          [
+            {"share":"fb"}
+          ],
+          [
+            {"share":"fb"}
+          ],
+          [
+            {"share":"fb"}
+          ],
+          [
+            {"share":"fb"}
+          ],
+          [
+            {"share":"fb"}
+          ],
+          [
+            {"share":"fb"}
+          ],
+          [
+            {"share":"fb"}
+          ],
+          [
+            {"share":"fb"}
+          ],
+          [
+            {"share":"twitter"}
+          ],
+          [
+            {"share":"twitter"}
+          ],
+          [
+            {"share":"twitter"}
+          ],
+          [
+            {"share":"twitter"}
+          ],
+          [
+            {"share":"twitter"}
+          ],
+          [
+            {"share":"twitter"}
+          ],
+          [
+            {"fb":"20", "twitter":"6"}
+          ],
+          [
+            {"fb":"1", "twitter":"1"}
+          ],
+          [
+            {"fb":"168", "twitter":"4"}
+          ],
+          [
+            {"fb":"4", "twitter":"7"}
+          ],
+          [
+            {"fb":"210", "twitter":"18"}
+          ],
+          [
+            {"fb":"313", "twitter":"119"}
+          ],
+          [
+            {"fb":"23", "twitter":"0"}
+          ],
+          [
+            {"fb":"777", "twitter":"55"}
+          ],
+          [
+           {"fb":"2652", "twitter":"33"}
+          ],
+          [
+            {"fb":"135", "twitter":"0"}
+          ],
+          [
+            {"fb":"125", "twitter":"96"}
+          ],
+          [
+            {"fb":"403", "twitter":"59"}
+          ],
+          [
+            {"fb":"4", "twitter":"7"}
+          ]
+        
+        ]
+    },
+    {
+        "name": "Homicide",
+        "children":[
+          [
+            {"fb":"3", "twitter":"3"}
+          ],
+          [
+            {"fb":"8", "twitter":"0"}
+          ],
+          [
+            {"fb":"313", "twitter":"119"}
+          ]
+        ]
+    },
+    {
+        "name": "Robbery",
+        "children":[
+          [
+            {"fb":"284", "twitter":"7"}
+          ],
+          [
+            {"fb":"23", "twitter":"13"}
+          ],
+          [
+            {"fb":"1", "twitter":"0"}
+          ],
+          [
+            {"fb":"1", "twitter":"13"}
+          ],
+          [
+            {"fb":"52", "twitter":"0"}
+          ],
+          [
+            {"fb":"9", "twitter":"13"}
+          ],
+          [
+            {"fb":"3", "twitter":"0"}
+          ],
+          [
+            {"fb":"23", "twitter":"0"}
+          ],
+          [
+            {"fb":"34", "twitter":"16"}
+          ],
+          [
+            {"fb":"17", "twitter":"1"}
+          ]
+        ]
+    }
+]

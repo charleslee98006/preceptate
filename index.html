@@ -1,0 +1,110 @@
+
+<!doctype html>
+<html>
+<head>
+
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/jquery-2.1.3.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/index.js"></script>
+	<script src ="js/d3.min.js"></script>
+	<script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/index.css" rel="stylesheet">
+	<script type="text/javascript" src="https://www.google.com/jsapi"></script>
+	<title>LMC3705 Project 3</title>
+</head>
+<body>
+
+	<div id="SunBurstContent">
+		<div id = "SunburtChart" class="MainSun"></div>
+		<div id = "Sunburst2Chart" class="newsReport"></div>
+		<div id = "Sunburst3Chart" class="SocialMReport"></div>
+		<div id = "Sunburst1Chart" class="PopoReport"></div>
+		<div id = "individualContent"></div>
+		<script>
+		// 	google.load("search", "1");
+		// 	d3.select("body").append("p").text("hello World!");
+		</script>
+	  	<!-- <label><input type="radio" name="mode" value="size"> Size</label>
+	  	<label><input type="radio" name="mode" value="count" checked> Count</label> -->
+
+	  	<div id="initialContent">
+	  	  	<div id = "linkToNext">
+	  			<p><a href="#">#Preceptat&euml</a></p>
+	  		</div>
+	  		<div id = "linkSubHeader">
+	  		</div>
+		  	<div id = "introContent"></div>
+		  	<div id = "introContent2"></div>
+	  	</div>
+	  	<div id ="layoutTitleDescriptions">
+	  		<div id = "cancelButton">
+				<p>X</p>
+			</div>
+			<div id="TitleDescriptions">
+
+	<!-- 			<button id="police" onclick="click()">Sort</button> -->
+	<!-- 	    	<button id="news" onclick="click()">Reset</button>
+		    	<button id="sm" onclick="click()">Reset</button> -->
+				
+				<h1>Correlation of Media to Violence</h1>
+				<h2>ABOUT THE VISUALIZATION</h2>
+				<p>This visualization was created as a tool with which one can explore the relationships between police reports, news reports, and social media shares of crime in the Seattle area from January 18th to February 7th. We began the visualization with the hypothesis that society’s perception of crime would more closely mirror the representation of crime crafted by the media than that of the police reports and then created a tool that allows users to create their own visualization and explore their own hypothesis regarding the public perception of crime and crime in the media and subsequently refute or support their belief.</p>
+				<p>Developed by Jax and Charles</p>
+			</div>
+		</div>
+		<div id="buttonShow"></div>
+	</div>
+<div id= "tutorialPageContent">
+		<h1><center>MAKE YOUR OWN</center></h1>
+<!-- 		<h1> <center>  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+		 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+		 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+		 </center> </h1> -->
+		<h2>1. <img src="images/1.png"></img> Download the code.</h2>
+		<p> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Here’s a link to our code.</p>
+		<h2>2. <img src="images/2.png"></img> Create your own JSON files.</h2>
+		<p> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Our visualization uses JSON files to read the data, thus, to use this tool, you must create your own JSON files. We created three different JSON files: AssaultRobberyDS.json, NewsArticles.json, and SharesArticles.json.</p>
+		<p> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; To create your own JSON file, add each element as a child under the appropriate topic - homicide, assault, or robbery.</p>
+		<p> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Here is how the news article JSON is formatted:</p>
+
+
+
+<p> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; "name": "Assault", </p>
+<p> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  "children" </p>
+<p> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  [ </p>
+                <p> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; {"location":"King County Court", "date":"1/20/2015"} </p>
+<p> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  ],</p>
+
+<p> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Add one of those children for each article you recorded in your data with the appropriate information.</p>
+
+<p> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; For the social media shares JSON, each child tells you what type of share (Facebook vs. Twitter) instead of location and date.</p>
+<p> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; [ </p>
+<p>  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; {"share":"Facebook"} </p>
+<p> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ],</p>
+
+		<h2>3. <img src="images/3.png"></img> Change the locations of the JSON files in the code.</h2>
+		<p>  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; The code needs to be able to locate the JSON files locally on you computer. Thus, you must change the locations of the JSON files in the index.js file to the locations on your computer so that the visualization can locate the files.</p>
+
+		<p> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; On a mac, to figure out the path, select the file and click “get info.” There, it will tell you the location of the file.  Paste this where instructed within the code.</p>
+
+		<h2>4. <img src="images/4.png"></img> Open “index.html” to see your visualization!</h2>
+		<p> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Google Chrome, Safari, and Internet Explorer do not allow you to access files locally. For this visualizaiton to work, you must use Firefox.</p>
+	</div>
+
+<!-- <div class="chart"></div> -->
+</body>
+<div id="tutorialPage">
+	<footer id ="footerPos">
+		
+		<p>Tutorial <img src="images/arrowIcon.png"></img></p>
+	</footer>
+</div>
+</html>

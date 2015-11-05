@@ -1,0 +1,1426 @@
+[
+   {
+      "meta": {
+         "view": {
+            "id": "zzzz-zzzz",
+            "name": "Seattle Police Department 911 Incident Response",
+            "attribution": "City of Seattle, Department of Information Technology, Seattle Police Department",
+            "averageRating": 0,
+            "category": "Public Safety",
+            "description": "This dataset is all the Police responses to 9-1-1 calls within the city. Police response data shows all officers dispatched. To protect the security of a scene, the safety of officers and the public, and sensitive ongoing investigation, these events are added to the data.seattle.gov only after the incident is considered safe to close out. Data is refreshed on a 4 hour interval.",
+            "displayType": "table",
+            "downloadCount": 0,
+            "indexUpdatedAt": 1428444169,
+            "licenseId": "CC0_10",
+            "newBackend": false,
+            "numberOfComments": 0,
+            "oid": 0,
+            "publicationAppendEnabled": true,
+            "publicationStage": "unpublished",
+            "rowIdentifierColumnId": 129997913,
+            "rowsUpdatedAt": 1428444371,
+            "rowsUpdatedBy": "pfbu-yuv5",
+            "tableId": 1448736,
+            "totalTimesRated": 0,
+            "viewCount": 0,
+            "viewType": "tabular",
+            "columns": [
+               {
+                  "id": -1,
+                  "name": "sid",
+                  "dataTypeName": "meta_data",
+                  "fieldName": ":sid",
+                  "position": 0,
+                  "renderTypeName": "meta_data",
+                  "format": {}
+               },
+               {
+                  "id": -1,
+                  "name": "id",
+                  "dataTypeName": "meta_data",
+                  "fieldName": ":id",
+                  "position": 0,
+                  "renderTypeName": "meta_data",
+                  "format": {}
+               },
+               {
+                  "id": -1,
+                  "name": "position",
+                  "dataTypeName": "meta_data",
+                  "fieldName": ":position",
+                  "position": 0,
+                  "renderTypeName": "meta_data",
+                  "format": {}
+               },
+               {
+                  "id": -1,
+                  "name": "created_at",
+                  "dataTypeName": "meta_data",
+                  "fieldName": ":created_at",
+                  "position": 0,
+                  "renderTypeName": "meta_data",
+                  "format": {}
+               },
+               {
+                  "id": -1,
+                  "name": "created_meta",
+                  "dataTypeName": "meta_data",
+                  "fieldName": ":created_meta",
+                  "position": 0,
+                  "renderTypeName": "meta_data",
+                  "format": {}
+               },
+               {
+                  "id": -1,
+                  "name": "updated_at",
+                  "dataTypeName": "meta_data",
+                  "fieldName": ":updated_at",
+                  "position": 0,
+                  "renderTypeName": "meta_data",
+                  "format": {}
+               },
+               {
+                  "id": -1,
+                  "name": "updated_meta",
+                  "dataTypeName": "meta_data",
+                  "fieldName": ":updated_meta",
+                  "position": 0,
+                  "renderTypeName": "meta_data",
+                  "format": {}
+               },
+               {
+                  "id": -1,
+                  "name": "meta",
+                  "dataTypeName": "meta_data",
+                  "fieldName": ":meta",
+                  "position": 0,
+                  "renderTypeName": "meta_data",
+                  "format": {}
+               },
+               {
+                  "id": 129997913,
+                  "name": "CAD CDW ID",
+                  "dataTypeName": "text",
+                  "description": "CAD CDW ID",
+                  "fieldName": "cad_cdw_id",
+                  "position": 1,
+                  "renderTypeName": "text",
+                  "tableColumnId": 1407247,
+                  "width": 100,
+                  "format": {
+                     "aggregate": "count",
+                     "align": "left"
+                  }
+               },
+               {
+                  "id": 129997914,
+                  "name": "CAD Event Number",
+                  "dataTypeName": "text",
+                  "description": "CAD Event Number",
+                  "fieldName": "cad_event_number",
+                  "position": 2,
+                  "renderTypeName": "text",
+                  "tableColumnId": 1407223,
+                  "width": 100,
+                  "format": {}
+               },
+               {
+                  "id": 129997915,
+                  "name": "General Offense Number",
+                  "dataTypeName": "text",
+                  "description": "General Offense Number",
+                  "fieldName": "general_offense_number",
+                  "position": 3,
+                  "renderTypeName": "text",
+                  "tableColumnId": 1407224,
+                  "width": 100,
+                  "format": {}
+               },
+               {
+                  "id": 129997916,
+                  "name": "Event Clearance Code",
+                  "dataTypeName": "text",
+                  "description": "Event Clearance Code",
+                  "fieldName": "event_clearance_code",
+                  "position": 4,
+                  "renderTypeName": "text",
+                  "tableColumnId": 1407225,
+                  "width": 100,
+                  "format": {}
+               },
+               {
+                  "id": 129997917,
+                  "name": "Event Clearance Description",
+                  "dataTypeName": "text",
+                  "description": "Event Clearance Description",
+                  "fieldName": "event_clearance_description",
+                  "position": 5,
+                  "renderTypeName": "text",
+                  "tableColumnId": 1407226,
+                  "width": 100,
+                  "format": {}
+               },
+               {
+                  "id": 129997918,
+                  "name": "Event Clearance SubGroup",
+                  "dataTypeName": "text",
+                  "description": "Event Clearance SubGroup",
+                  "fieldName": "event_clearance_subgroup",
+                  "position": 6,
+                  "renderTypeName": "text",
+                  "tableColumnId": 1407227,
+                  "width": 100,
+                  "format": {}
+               },
+               {
+                  "id": 129997919,
+                  "name": "Event Clearance Group",
+                  "dataTypeName": "text",
+                  "description": "Event Clearance Group",
+                  "fieldName": "event_clearance_group",
+                  "position": 7,
+                  "renderTypeName": "text",
+                  "tableColumnId": 1407228,
+                  "width": 100,
+                  "format": {}
+               },
+               {
+                  "id": 129997920,
+                  "name": "Event Clearance Date",
+                  "dataTypeName": "calendar_date",
+                  "description": "Event Clearance Date",
+                  "fieldName": "event_clearance_date",
+                  "position": 8,
+                  "renderTypeName": "calendar_date",
+                  "tableColumnId": 1407229,
+                  "width": 100,
+                  "format": {}
+               },
+               {
+                  "id": 129997921,
+                  "name": "Hundred Block Location",
+                  "dataTypeName": "text",
+                  "description": "Hundred Block Location",
+                  "fieldName": "hundred_block_location",
+                  "position": 9,
+                  "renderTypeName": "text",
+                  "tableColumnId": 1407230,
+                  "width": 100,
+                  "format": {}
+               },
+               {
+                  "id": 129997922,
+                  "name": "District/Sector",
+                  "dataTypeName": "text",
+                  "description": "Sector",
+                  "fieldName": "district_sector",
+                  "position": 10,
+                  "renderTypeName": "text",
+                  "tableColumnId": 1407231,
+                  "width": 100,
+                  "format": {}
+               },
+               {
+                  "id": 129997923,
+                  "name": "Zone/Beat",
+                  "dataTypeName": "text",
+                  "description": "Beat",
+                  "fieldName": "zone_beat",
+                  "position": 11,
+                  "renderTypeName": "text",
+                  "tableColumnId": 1407232,
+                  "width": 100,
+                  "format": {}
+               },
+               {
+                  "id": 129997924,
+                  "name": "Census Tract",
+                  "dataTypeName": "text",
+                  "description": "Census_Tract",
+                  "fieldName": "census_tract",
+                  "position": 12,
+                  "renderTypeName": "text",
+                  "tableColumnId": 1407233,
+                  "width": 100,
+                  "format": {}
+               },
+               {
+                  "id": 129997925,
+                  "name": "Longitude",
+                  "dataTypeName": "number",
+                  "description": "Longitude",
+                  "fieldName": "longitude",
+                  "position": 13,
+                  "renderTypeName": "number",
+                  "tableColumnId": 1407234,
+                  "width": 100,
+                  "format": {}
+               },
+               {
+                  "id": 129997926,
+                  "name": "Latitude",
+                  "dataTypeName": "number",
+                  "description": "Latitude",
+                  "fieldName": "latitude",
+                  "position": 14,
+                  "renderTypeName": "number",
+                  "tableColumnId": 1407235,
+                  "width": 100,
+                  "format": {}
+               },
+               {
+                  "id": 129997927,
+                  "name": "Incident Location",
+                  "dataTypeName": "location",
+                  "fieldName": "incident_location",
+                  "position": 15,
+                  "renderTypeName": "location",
+                  "tableColumnId": 1443673,
+                  "width": 100,
+                  "format": {},
+                  "subColumnTypes": [
+                     "human_address",
+                     "latitude",
+                     "longitude",
+                     "machine_address",
+                     "needs_recoding"
+                  ]
+               },
+               {
+                  "id": 129998440,
+                  "name": "Initial Type Description",
+                  "dataTypeName": "text",
+                  "fieldName": "initial_type_description",
+                  "position": 16,
+                  "renderTypeName": "text",
+                  "tableColumnId": 17706840,
+                  "width": 100,
+                  "format": {}
+               },
+               {
+                  "id": 129998457,
+                  "name": "Initial Type Subgroup",
+                  "dataTypeName": "text",
+                  "fieldName": "initial_type_subgroup",
+                  "position": 17,
+                  "renderTypeName": "text",
+                  "tableColumnId": 17706841,
+                  "width": 100,
+                  "format": {}
+               },
+               {
+                  "id": 129998460,
+                  "name": "Initial Type Group",
+                  "dataTypeName": "text",
+                  "fieldName": "initial_type_group",
+                  "position": 18,
+                  "renderTypeName": "text",
+                  "tableColumnId": 17706844,
+                  "width": 100,
+                  "format": {}
+               },
+               {
+                  "id": 129998461,
+                  "name": "At Scene Time",
+                  "dataTypeName": "calendar_date",
+                  "fieldName": "at_scene_time",
+                  "position": 19,
+                  "renderTypeName": "calendar_date",
+                  "tableColumnId": 17706845,
+                  "width": 100,
+                  "format": {}
+               }
+            ],
+            "grants": [
+               {
+                  "inherited": true,
+                  "type": "viewer",
+                  "flags": [
+                     "public"
+                  ]
+               }
+            ],
+            "license": {
+               "name": "Creative Commons 1.0 Universal",
+               "logoUrl": "images/licenses/ccZero.png",
+               "termsLink": "http://creativecommons.org/publicdomain/zero/1.0/legalcode"
+            },
+            "metadata": {
+               "custom_fields": {
+                  "Refresh Frequency": {
+                     "Frequency": "hourly"
+                  },
+                  "Data Owner": {
+                     "Owner": "Department of Information Technology"
+                  }
+               },
+               "renderTypeConfig": {
+                  "visible": {
+                     "table": true
+                  }
+               },
+               "availableDisplayTypes": [
+                  "table",
+                  "fatrow",
+                  "page"
+               ],
+               "jsonQuery": {
+                  "order": [
+                     {
+                        "ascending": true,
+                        "columnFieldName": "event_clearance_date"
+                     }
+                  ],
+                  "where": {
+                     "children": [
+                        {
+                           "value": "ASSAULT",
+                           "operator": "CONTAINS",
+                           "columnFieldName": "event_clearance_description",
+                           "metadata": {
+                              "freeform": true,
+                              "tableColumnId": {
+                                 "219540": 1407226
+                              },
+                              "operator": "CONTAINS"
+                           }
+                        },
+                        {
+                           "value": [
+                              "2015-01-25T00:00:00",
+                              "2015-01-31T00:00:00"
+                           ],
+                           "operator": "BETWEEN",
+                           "columnFieldName": "event_clearance_date",
+                           "metadata": {
+                              "freeform": true,
+                              "tableColumnId": {
+                                 "219540": 1407229
+                              },
+                              "operator": "BETWEEN"
+                           }
+                        }
+                     ],
+                     "operator": "AND",
+                     "metadata": {
+                        "freeform": true,
+                        "unifiedVersion": 2,
+                        "tableColumnId": {
+                           "219540": 1407226
+                        },
+                        "operator": "CONTAINS"
+                     }
+                  }
+               },
+               "rdfSubject": "0",
+               "attachments": [
+                  {
+                     "blobId": "98E5052D-5E37-4BB4-B903-50BD73C97CCC",
+                     "assetId": "",
+                     "name": "CadDataReleaserules.docx",
+                     "filename": "CadDataReleaserules.docx"
+                  }
+               ],
+               "rowIdentifier": 129997913
+            },
+            "owner": {
+               "id": "ib3e-8ykv",
+               "displayName": "Charles Lee",
+               "emailUnsubscribed": false,
+               "profileLastModified": 1428276371,
+               "screenName": "Charles Lee"
+            },
+            "query": {
+               "filterCondition": {
+                  "type": "operator",
+                  "value": "AND",
+                  "children": [
+                     {
+                        "type": "operator",
+                        "value": "OR",
+                        "children": [
+                           {
+                              "type": "operator",
+                              "value": "CONTAINS",
+                              "children": [
+                                 {
+                                    "columnId": 129997917,
+                                    "type": "column"
+                                 },
+                                 {
+                                    "type": "literal",
+                                    "value": "ASSAULT"
+                                 }
+                              ],
+                              "metadata": {
+                                 "freeform": true
+                              }
+                           }
+                        ],
+                        "metadata": {
+                           "tableColumnId": {
+                              "219540": 1407226
+                           },
+                           "operator": "CONTAINS"
+                        }
+                     },
+                     {
+                        "type": "operator",
+                        "value": "OR",
+                        "children": [
+                           {
+                              "type": "operator",
+                              "value": "BETWEEN",
+                              "children": [
+                                 {
+                                    "columnId": 129997920,
+                                    "type": "column"
+                                 },
+                                 {
+                                    "type": "literal",
+                                    "value": "2015-01-25T00:00:00"
+                                 },
+                                 {
+                                    "type": "literal",
+                                    "value": "2015-01-31T00:00:00"
+                                 }
+                              ],
+                              "metadata": {
+                                 "freeform": true
+                              }
+                           }
+                        ],
+                        "metadata": {
+                           "tableColumnId": {
+                              "219540": 1407229
+                           },
+                           "operator": "BETWEEN"
+                        }
+                     }
+                  ],
+                  "metadata": {
+                     "freeform": true,
+                     "unifiedVersion": 2,
+                     "tableColumnId": {
+                        "219540": 1407226
+                     },
+                     "operator": "CONTAINS"
+                  }
+               },
+               "orderBys": [
+                  {
+                     "ascending": true,
+                     "expression": {
+                        "columnId": 129997920,
+                        "type": "column"
+                     }
+                  }
+               ]
+            },
+            "rights": [
+               "read"
+            ],
+            "sortBys": [
+               {
+                  "id": 0,
+                  "viewColumnId": 129997920,
+                  "flags": [
+                     "asc"
+                  ]
+               }
+            ],
+            "tableAuthor": {
+               "id": "pfbu-yuv5",
+               "displayName": "Department of Information Technology",
+               "profileImageUrlLarge": "/images/profile/3184/7575/Logo_thumb_large.gif",
+               "profileImageUrlMedium": "/images/profile/3184/7575/Logo_thumb_thumb.gif",
+               "profileImageUrlSmall": "/images/profile/3184/7575/Logo_thumb_tiny.gif",
+               "roleName": "administrator",
+               "screenName": "Department of Information Technology",
+               "rights": [
+                  "create_datasets",
+                  "edit_others_datasets",
+                  "edit_sdp",
+                  "edit_site_theme",
+                  "moderate_comments",
+                  "manage_users",
+                  "chown_datasets",
+                  "edit_nominations",
+                  "approve_nominations",
+                  "feature_items",
+                  "federations",
+                  "manage_stories",
+                  "manage_approval",
+                  "change_configurations",
+                  "view_domain",
+                  "view_others_datasets",
+                  "edit_pages",
+                  "create_pages",
+                  "view_goals",
+                  "view_dashboards",
+                  "edit_goals",
+                  "edit_dashboards",
+                  "create_dashboards"
+               ]
+            },
+            "tags": [
+               "911",
+               "police",
+               "crime",
+               "incident response"
+            ],
+            "viewFilters": {
+               "type": "operator",
+               "value": "AND",
+               "children": [
+                  {
+                     "type": "operator",
+                     "value": "OR",
+                     "children": [
+                        {
+                           "type": "operator",
+                           "value": "CONTAINS",
+                           "children": [
+                              {
+                                 "columnId": 129997917,
+                                 "type": "column"
+                              },
+                              {
+                                 "type": "literal",
+                                 "value": "ASSAULT"
+                              }
+                           ],
+                           "metadata": {
+                              "freeform": true
+                           }
+                        }
+                     ],
+                     "metadata": {
+                        "tableColumnId": {
+                           "219540": 1407226
+                        },
+                        "operator": "CONTAINS"
+                     }
+                  },
+                  {
+                     "type": "operator",
+                     "value": "OR",
+                     "children": [
+                        {
+                           "type": "operator",
+                           "value": "BETWEEN",
+                           "children": [
+                              {
+                                 "columnId": 129997920,
+                                 "type": "column"
+                              },
+                              {
+                                 "type": "literal",
+                                 "value": "2015-01-25T00:00:00"
+                              },
+                              {
+                                 "type": "literal",
+                                 "value": "2015-01-31T00:00:00"
+                              }
+                           ],
+                           "metadata": {
+                              "freeform": true
+                           }
+                        }
+                     ],
+                     "metadata": {
+                        "tableColumnId": {
+                           "219540": 1407229
+                        },
+                        "operator": "BETWEEN"
+                     }
+                  }
+               ],
+               "metadata": {
+                  "freeform": true,
+                  "unifiedVersion": 2,
+                  "tableColumnId": {
+                     "219540": 1407226
+                  },
+                  "operator": "CONTAINS"
+               }
+            },
+            "flags": [
+               "unsaved"
+            ]
+         }
+      },
+      "data": [
+         [
+            1280398,
+            "FFB04E58-C84C-4F3C-82C2-FFDD746E67BE",
+            1280398,
+            1422286545,
+            "386118",
+            1422286545,
+            "386118",
+            null,
+            "2257020",
+            "15000028481",
+            "201528481",
+            "040",
+            "ASSAULTS, OTHER",
+            "ASSAULTS",
+            "ASSAULTS",
+            "2015-01-26T07:16:00",
+            "6 AV / PINE ST",
+            "M",
+            "M2",
+            "8200.1004",
+            "-122.335376337",
+            "47.612135778",
+            [
+               null,
+               "47.612135778",
+               "-122.335376337",
+               null,
+               false
+            ],
+            "ASLT - IP/JO - WITH OR W/O WPNS (NO SHOOTINGS)",
+            "ASSAULTS",
+            "ASSAULTS",
+            null
+         ],
+         [
+            1280709,
+            "D439A5DD-3F38-400D-90C2-AA2248D7CA32",
+            1280709,
+            1422312979,
+            "386118",
+            1422312979,
+            "386118",
+            null,
+            "2257331",
+            "15000028976",
+            "201528976",
+            "040",
+            "ASSAULTS, OTHER",
+            "ASSAULTS",
+            "ASSAULTS",
+            "2015-01-26T14:36:00",
+            "4XX BLOCK OF 23 AV",
+            "G",
+            "G3",
+            "8800.4004",
+            "-122.302797176",
+            "47.605660243",
+            [
+               null,
+               "47.605660243",
+               "-122.302797176",
+               null,
+               false
+            ],
+            "ASLT - WITH OR W/O WEAPONS (NO SHOOTINGS)",
+            "ASSAULTS",
+            "ASSAULTS",
+            null
+         ],
+         [
+            1280857,
+            "EA3F3E04-136D-4657-B8F8-5B125D32DA85",
+            1280857,
+            1422323177,
+            "386118",
+            1422323177,
+            "386118",
+            null,
+            "2257479",
+            "15000029226",
+            "201529226",
+            "040",
+            "ASSAULTS, OTHER",
+            "ASSAULTS",
+            "ASSAULTS",
+            "2015-01-26T17:32:00",
+            "45XX BLOCK OF 8 AV NE",
+            "U",
+            "U2",
+            "5200.5003",
+            "-122.319560822",
+            "47.662222032",
+            [
+               null,
+               "47.662222032",
+               "-122.319560822",
+               null,
+               false
+            ],
+            "FIGHT - IP - PHYSICAL (NO WEAPONS)",
+            "DISTURBANCES",
+            "DISTURBANCES",
+            null
+         ],
+         [
+            1280935,
+            "773A03D4-6846-4F06-AAE5-A9706AA3E7EF",
+            1280935,
+            1422328568,
+            "386118",
+            1422328568,
+            "386118",
+            null,
+            "2257557",
+            "15000029088",
+            "201529088",
+            "040",
+            "ASSAULTS, OTHER",
+            "ASSAULTS",
+            "ASSAULTS",
+            "2015-01-26T19:03:00",
+            "14XX BLOCK OF 2 AV",
+            "M",
+            "M3",
+            "8100.1008",
+            "-122.338449520",
+            "47.608788659",
+            [
+               null,
+               "47.608788659",
+               "-122.33844952",
+               null,
+               false
+            ],
+            "ASLT - IP/JO - WITH OR W/O WPNS (NO SHOOTINGS)",
+            "ASSAULTS",
+            "ASSAULTS",
+            "2015-01-26T15:29:00"
+         ],
+         [
+            1280959,
+            "E2523255-A9D5-43FD-9519-10C162EEAA19",
+            1280959,
+            1422330373,
+            "386118",
+            1422330373,
+            "386118",
+            null,
+            "2257581",
+            "15000029187",
+            "201529187",
+            "040",
+            "ASSAULTS, OTHER",
+            "ASSAULTS",
+            "ASSAULTS",
+            "2015-01-26T19:23:00",
+            "SEWARD PARK AV S / RAINIER AV S",
+            "S",
+            "S2",
+            "11800.6015",
+            "-122.262779164",
+            "47.520115560",
+            [
+               null,
+               "47.52011556",
+               "-122.262779164",
+               null,
+               false
+            ],
+            "ASLT - WITH OR W/O WEAPONS (NO SHOOTINGS)",
+            "ASSAULTS",
+            "ASSAULTS",
+            "2015-01-26T16:45:00"
+         ],
+         [
+            1281099,
+            "C01A0882-1C3B-46A0-B6E2-2178240E9261",
+            1281099,
+            1422341769,
+            "386118",
+            1422341769,
+            "386118",
+            null,
+            "2257721",
+            "15000029369",
+            "201529369",
+            "040",
+            "ASSAULTS, OTHER",
+            "ASSAULTS",
+            "ASSAULTS",
+            "2015-01-26T22:35:00",
+            "48XX BLOCK OF SAND POINT WY NE",
+            "L",
+            "L3",
+            "4100.4008",
+            "-122.283154853",
+            "47.664582314",
+            [
+               null,
+               "47.664582314",
+               "-122.283154853",
+               null,
+               false
+            ],
+            "ASLT - WITH OR W/O WEAPONS (NO SHOOTINGS)",
+            "ASSAULTS",
+            "ASSAULTS",
+            "2015-01-26T19:53:00"
+         ],
+         [
+            1281096,
+            "B152DA7F-BAAE-4DD9-8DE2-A666DFF9F917",
+            1281096,
+            1422341769,
+            "386118",
+            1422341769,
+            "386118",
+            null,
+            "2257718",
+            "15000029457",
+            "201529457",
+            "040",
+            "ASSAULTS, OTHER",
+            "ASSAULTS",
+            "ASSAULTS",
+            "2015-01-26T22:41:00",
+            "14XX BLOCK OF WESTERN AV",
+            "M",
+            "M3",
+            "8100.1011",
+            "-122.340669908",
+            "47.607860352",
+            [
+               null,
+               "47.607860352",
+               "-122.340669908",
+               null,
+               false
+            ],
+            "ASLT - WITH OR W/O WEAPONS (NO SHOOTINGS)",
+            "ASSAULTS",
+            "ASSAULTS",
+            "2015-01-26T21:07:00"
+         ],
+         [
+            1281350,
+            "74722BDB-5BE6-4BCD-B12B-8E055ED97FDA",
+            1281350,
+            1422378966,
+            "386118",
+            1422378966,
+            "386118",
+            null,
+            "2257973",
+            "15000029805",
+            "201529805",
+            "040",
+            "ASSAULTS, OTHER",
+            "ASSAULTS",
+            "ASSAULTS",
+            "2015-01-27T08:57:00",
+            "3XX BLOCK OF 2 AV S",
+            "K",
+            "K2",
+            "9200.2021",
+            "-122.330807499",
+            "47.600464242",
+            [
+               null,
+               "47.600464242",
+               "-122.330807499",
+               null,
+               false
+            ],
+            "ASLT - IP/JO - WITH OR W/O WPNS (NO SHOOTINGS)",
+            "ASSAULTS",
+            "ASSAULTS",
+            "2015-01-27T07:43:00"
+         ],
+         [
+            1281396,
+            "8558E0DA-3987-43FA-AB7F-CB1F58340D7A",
+            1281396,
+            1422385544,
+            "386118",
+            1422385544,
+            "386118",
+            null,
+            "2258019",
+            "15000029983",
+            "201529983",
+            "043",
+            "ASSAULTS, FIREARM INVOLVED",
+            "GUN CALLS",
+            "ASSAULTS",
+            "2015-01-27T10:45:00",
+            "23XX BLOCK OF SW WEBSTER ST",
+            "F",
+            "F1",
+            "10700.2000",
+            "-122.362150134",
+            "47.535515062",
+            [
+               null,
+               "47.535515062",
+               "-122.362150134",
+               null,
+               false
+            ],
+            "THREATS (INCLS IN-PERSON/BY PHONE/IN WRITING)",
+            "THREATS, HARASSMENT",
+            "THREATS, HARASSMENT",
+            null
+         ],
+         [
+            1281727,
+            "161ED16E-5415-4945-BEF1-552B3C5F3A3B",
+            1281727,
+            1422411965,
+            "386118",
+            1422411965,
+            "386118",
+            null,
+            "2258350",
+            "15000030288",
+            "201530288",
+            "040",
+            "ASSAULTS, OTHER",
+            "ASSAULTS",
+            "ASSAULTS",
+            "2015-01-27T18:07:00",
+            "4XX BLOCK OF 9 AV",
+            "E",
+            "E3",
+            "8500.2011",
+            "-122.323443935",
+            "47.604128076",
+            [
+               null,
+               "47.604128076",
+               "-122.323443935",
+               null,
+               false
+            ],
+            "ASLT - WITH OR W/O WEAPONS (NO SHOOTINGS)",
+            "ASSAULTS",
+            "ASSAULTS",
+            "2015-01-27T15:11:00"
+         ],
+         [
+            1281815,
+            "BE700E42-FE69-4010-92E6-0D635E38618D",
+            1281815,
+            1422417365,
+            "386118",
+            1422417365,
+            "386118",
+            null,
+            "2258438",
+            "15000030208",
+            "201530208",
+            "040",
+            "ASSAULTS, OTHER",
+            "ASSAULTS",
+            "ASSAULTS",
+            "2015-01-27T19:33:00",
+            "16XX BLOCK OF 19 AV",
+            "G",
+            "G1",
+            "7900.2002",
+            "-122.307426983",
+            "47.616000183",
+            [
+               null,
+               "47.616000183",
+               "-122.307426983",
+               null,
+               false
+            ],
+            "ASLT - WITH OR W/O WEAPONS (NO SHOOTINGS)",
+            "ASSAULTS",
+            "ASSAULTS",
+            "2015-01-27T18:17:00"
+         ],
+         [
+            1282005,
+            "0060CDF3-4252-4FD7-8858-BE67B1C1EF50",
+            1282005,
+            1422432366,
+            "386118",
+            1422432366,
+            "386118",
+            null,
+            "2258628",
+            "15000030818",
+            "201530818",
+            "040",
+            "ASSAULTS, OTHER",
+            "ASSAULTS",
+            "ASSAULTS",
+            "2015-01-27T23:45:00",
+            "4 AV W / W HARRISON ST",
+            "Q",
+            "Q3",
+            "7100.1008",
+            "-122.361954256",
+            "47.622127524",
+            [
+               null,
+               "47.622127524",
+               "-122.361954256",
+               null,
+               false
+            ],
+            "THEFT OF SERVICES",
+            "OTHER PROPERTY",
+            "THEFT",
+            null
+         ],
+         [
+            1282039,
+            "5AA16BA6-1A54-4360-B089-383297CE6956",
+            1282039,
+            1422435967,
+            "386118",
+            1422435967,
+            "386118",
+            null,
+            "2258662",
+            "15000030637",
+            "201530637",
+            "040",
+            "ASSAULTS, OTHER",
+            "ASSAULTS",
+            "ASSAULTS",
+            "2015-01-28T00:47:00",
+            "5XX BLOCK OF 3 AV",
+            "K",
+            "K2",
+            "8100.2035",
+            "-122.331082197",
+            "47.602412415",
+            [
+               null,
+               "47.602412415",
+               "-122.331082197",
+               null,
+               false
+            ],
+            "ASLT - IP/JO - WITH OR W/O WPNS (NO SHOOTINGS)",
+            "ASSAULTS",
+            "ASSAULTS",
+            "2015-01-27T20:05:00"
+         ],
+         [
+            1282051,
+            "D08E5FE2-E148-4C5A-A038-5C200E052052",
+            1282051,
+            1422437766,
+            "386118",
+            1422437766,
+            "386118",
+            null,
+            "2258674",
+            "15000030856",
+            "201530856",
+            "043",
+            "ASSAULTS, FIREARM INVOLVED",
+            "GUN CALLS",
+            "ASSAULTS",
+            "2015-01-28T01:17:00",
+            "22 AV / E FIR ST",
+            "G",
+            "G1",
+            "8700.2014",
+            "-122.303735684",
+            "47.602669641",
+            [
+               null,
+               "47.602669641",
+               "-122.303735684",
+               null,
+               false
+            ],
+            "SHOTS - IP/JO - INCLUDES HEARD/NO ASSAULT",
+            "WEAPONS CALLS",
+            "GUN CALLS",
+            null
+         ],
+         [
+            1282097,
+            "50E1A279-A676-459B-8541-77026FD89C1E",
+            1282097,
+            1422443168,
+            "386118",
+            1422443168,
+            "386118",
+            null,
+            "2258720",
+            "15000030595",
+            "201530595",
+            "040",
+            "ASSAULTS, OTHER",
+            "ASSAULTS",
+            "ASSAULTS",
+            "2015-01-28T02:42:00",
+            "38XX BLOCK OF S OTHELLO ST",
+            "S",
+            "S1",
+            "11000.1011",
+            "-122.284051720",
+            "47.537040154",
+            [
+               null,
+               "47.537040154",
+               "-122.28405172",
+               null,
+               false
+            ],
+            "ASLT - WITH OR W/O WEAPONS (NO SHOOTINGS)",
+            "ASSAULTS",
+            "ASSAULTS",
+            "2015-01-27T21:11:00"
+         ],
+         [
+            1283357,
+            "74419AA6-3880-40C4-AD26-7ED4C9A86F50",
+            1283357,
+            1422663366,
+            "386118",
+            1422663366,
+            "386118",
+            null,
+            "580859",
+            "15000034049",
+            "201534049",
+            "040",
+            "ASSAULTS, OTHER",
+            "ASSAULTS",
+            "ASSAULTS",
+            "2015-01-30T13:16:00",
+            "68XX BLOCK OF 30 AV NE",
+            "U",
+            "U3",
+            "3800.1004",
+            "-122.295168690",
+            "47.678505415",
+            [
+               null,
+               "47.678505415",
+               "-122.29516869",
+               null,
+               false
+            ],
+            "ASLT - WITH OR W/O WEAPONS (NO SHOOTINGS)",
+            "ASSAULTS",
+            "ASSAULTS",
+            "2015-01-30T13:04:00"
+         ],
+         [
+            1282101,
+            "B29A251C-2F57-4B1C-8356-EB12110BA7A7",
+            1282101,
+            1422656165,
+            "386118",
+            1422656165,
+            "386118",
+            null,
+            "579600",
+            "15000033473",
+            "201533473",
+            "040",
+            "ASSAULTS, OTHER",
+            "ASSAULTS",
+            "ASSAULTS",
+            "2015-01-30T14:00:00",
+            "5XX BLOCK OF 3 AV",
+            "K",
+            "K2",
+            "8100.2043",
+            "-122.331082197",
+            "47.602412415",
+            [
+               null,
+               "47.602412415",
+               "-122.331082197",
+               null,
+               false
+            ],
+            "DISTURBANCE, MISCELLANEOUS/OTHER",
+            "DISTURBANCES",
+            "DISTURBANCES",
+            "2015-01-29T22:28:00"
+         ],
+         [
+            1282334,
+            "CA81FE6C-5320-422C-BB87-2973D200A14F",
+            1282334,
+            1422657367,
+            "386118",
+            1422657367,
+            "386118",
+            null,
+            "579836",
+            "15000034140",
+            "201534140",
+            "040",
+            "ASSAULTS, OTHER",
+            "ASSAULTS",
+            "ASSAULTS",
+            "2015-01-30T14:15:00",
+            "3XX BLOCK OF ELLIOTT AV W",
+            "Q",
+            "Q3",
+            "7100.1010",
+            "-122.361651084",
+            "47.621266968",
+            [
+               null,
+               "47.621266968",
+               "-122.361651084",
+               null,
+               false
+            ],
+            "ASLT - IP/JO - WITH OR W/O WPNS (NO SHOOTINGS)",
+            "ASSAULTS",
+            "ASSAULTS",
+            null
+         ],
+         [
+            1282433,
+            "D3C7FD69-4075-4819-BC0C-7DDDAE29F58A",
+            1282433,
+            1422657944,
+            "386118",
+            1422657944,
+            "386118",
+            null,
+            "579935",
+            "15000034127",
+            "201534127",
+            "040",
+            "ASSAULTS, OTHER",
+            "ASSAULTS",
+            "ASSAULTS",
+            "2015-01-30T14:25:00",
+            "17XX BLOCK OF 17 AV",
+            "C",
+            "C2",
+            "7900.5008",
+            "-122.310144929",
+            "47.617027208",
+            [
+               null,
+               "47.617027208",
+               "-122.310144929",
+               null,
+               false
+            ],
+            "ASLT - WITH OR W/O WEAPONS (NO SHOOTINGS)",
+            "ASSAULTS",
+            "ASSAULTS",
+            null
+         ],
+         [
+            278225,
+            "058F4708-709A-47A5-BC22-D79AB88B96E7",
+            278225,
+            1389397177,
+            "386118",
+            1422889055,
+            "386118",
+            {},
+            "582824",
+            "15000034275",
+            "201534275",
+            "040",
+            "ASSAULTS, OTHER",
+            "ASSAULTS",
+            "ASSAULTS",
+            "2015-01-30T18:55:00",
+            "2XX BLOCK OF YESLER WY",
+            "K",
+            "K3",
+            "9200.2014",
+            "-122.331124144",
+            "47.601717572",
+            [
+               null,
+               "47.601717572",
+               "-122.331124144",
+               null,
+               false
+            ],
+            "ASLT - IP/JO - WITH OR W/O WPNS (NO SHOOTINGS)",
+            "ASSAULTS",
+            "ASSAULTS",
+            "2015-01-30T16:06:00"
+         ],
+         [
+            1287871,
+            "52680E65-D3E0-42AD-BFA3-F715AD53E80F",
+            1287871,
+            1423006566,
+            "386118",
+            1423006566,
+            "386118",
+            null,
+            "640328",
+            "15000034422",
+            "201534422",
+            "040",
+            "ASSAULTS, OTHER",
+            "ASSAULTS",
+            "ASSAULTS",
+            "2015-01-30T19:26:00",
+            "5XX BLOCK OF 3 AV",
+            "K",
+            "K2",
+            "8100.2043",
+            "-122.331082197",
+            "47.602412415",
+            [
+               null,
+               "47.602412415",
+               "-122.331082197",
+               null,
+               false
+            ],
+            "ASLT - WITH OR W/O WEAPONS (NO SHOOTINGS)",
+            "ASSAULTS",
+            "ASSAULTS",
+            "2015-01-30T17:55:00"
+         ],
+         [
+            278221,
+            "4E2FB268-77F3-4893-9CD4-5C0A7A981B3C",
+            278221,
+            1389397177,
+            "386118",
+            1422889055,
+            "386118",
+            {},
+            "582820",
+            "15000034285",
+            "201534285",
+            "040",
+            "ASSAULTS, OTHER",
+            "ASSAULTS",
+            "ASSAULTS",
+            "2015-01-30T20:18:00",
+            "57XX BLOCK OF SW WINTHROP ST",
+            "W",
+            "W1",
+            "9701.1022",
+            "-122.406249286",
+            "47.576349394",
+            [
+               null,
+               "47.576349394",
+               "-122.406249286",
+               null,
+               false
+            ],
+            "ASLT - WITH OR W/O WEAPONS (NO SHOOTINGS)",
+            "ASSAULTS",
+            "ASSAULTS",
+            "2015-01-30T16:18:00"
+         ]
+      ]
+   }
+]

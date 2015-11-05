@@ -1,0 +1,99 @@
+[
+    {
+        "name": "Assault",
+        "children":[
+          [
+            {"location":"King County Court", "date":"1/20/2015", "link":"http://www.komonews.com/news/local/Protestors-accused-of-assaulting-police-face-judge-289236681.html"}
+          ],
+          [
+            {"location":"Shoreline", "date":"1/30/2015", "link":"http://www.komonews.com/news/local/Prosecutor-Seattle-firefighter-beat-estranged-wife-in-front-of-child-290391901.html"}
+          ],
+          [
+            {"location":"Crown Hill", "date":"2/5/2015", "link":"http://www.komonews.com/news/local/Report-Man-eats-hallucinogens-sparks-standoff-with-police--291010211.html"}
+          ],
+          [
+            {"location":"Bellevue", "date":"2/6/2015", "link":"http://www.komonews.com/news/local/Large-scale-police-search-nabs-2-assault-suspects-in-Bellevue-291048971.html"}
+          ],
+          [
+            {"location":"I-5", "date":"1/18/2015", "link":"http://www.kirotv.com/news/news/woman-arrested-after-reaching-over-seat-clawing-he/njrCB/"}
+          ],
+          [
+            {"location":"Charles Street complex", "date":"1/20/2015", "link":"http://www.kirotv.com/news/news/trial-starting-accused-cop-killer-christopher-monf/njrpH/"}
+          ],
+          [
+            {"location":"Third Avenue and Pine Street", "date":"1/22/2015", "link":"http://www.kirotv.com/news/news/2-injured-downtown-seattle-shooting/njs25/"}
+          ],
+          [
+            {"location":"Georgetown", "date":"1/26/2015", "link":"http://www.kirotv.com/news/news/charges-faced-after-brutal-georgetown-gas-station-/njxSR/"}
+          ],
+          [
+            {"location":"Cherry Crest Elementary School", "date":"1/28/2015", "link": "http://www.kirotv.com/news/news/art-teacher-arrested-child-rape-molestation/njyfJ/"}
+          ],
+          [
+            {"location":"King County Jail", "date":"1/30/2015", "link": "http://www.kirotv.com/news/news/police-seattle-firefighter-beat-wife-front-kids/nj2Bq/"}
+          ],
+          [
+            {"location":"UW", "date":"2/2/2015", "link":"http://www.kirotv.com/news/news/man-pretended-be-employee-tried-kidnap-uw-student/njy8d/"}
+          ],
+          [
+            {"location":"UW", "date":"2/3/2015", "link":"http://www.kirotv.com/news/news/uw-student-stabbed-6-times-defending-woman/nj3px/"}
+          ],
+          [
+            {"location":"UW", "date":"2/5/2015", "link":"http://www.kirotv.com/news/news/man-accused-uw-attempted-kidnapping-wheeled-court-/nj5Sz/"}
+          ],
+          [
+            {"location":"Bellevue", "date":"2/6/2015", "link":"http://www.kirotv.com/news/news/2-arrested-after-fight-spills-freeway-onramp-belle/nj5xR/"}
+          ]
+        
+        ]
+    },
+    {
+        "name": "Homicide",
+        "children":[
+          [
+            {"location":"Belltown", "date":"1/20/2015", "link":"http://www.komonews.com/news/local/Man-with-gunshot-wound-flags-down-taxi-after-Belltown-shooting-289220651.html"}
+          ],
+          [
+            {"location":"Bellevue", "date":"2/8/2015", "link":"http://www.komonews.com/news/local/Womans-body-found-in-Bellevue-apartment-291200271.html"}
+          ],
+          [
+            {"location":"Third Ave + Pine St", "date":"1/22/2015", "link":"http://www.kirotv.com/news/news/2-injured-downtown-seattle-shooting/njs25/"}
+          ]
+        ]
+    },
+    {
+        "name": "Robbery",
+        "children":[
+          [
+            {"location":"Lakewood Wal-Mart", "date":"1/22/2015", "link": "http://www.komonews.com/news/local/Supreme-Court-New-trial-in-armored-car-guard-killing-289469261.html"}
+          ],
+          [
+            {"location":"20th Avenue SW and SW Holden Street", "date":"1/29/2015", "link":"http://www.komonews.com/news/local/W-Seattle-girl-13-robbed-at-gunpoint-while-walking-to-school-290247801.html"}
+          ],
+          [
+            {"location":"Renton", "date":"1/29/2015", "link":"http://www.komonews.com/news/local/Mental-evaluation-for-man-accused-of-slitting-clerks-throat-290295511.html"}
+          ],
+          [
+            {"location":"Lynwood", "date":"1/20/2015", "link":"http://www.kirotv.com/news/news/alleged-alabama-band-bandit-charged-5-bank-robberi/njrRC/"}
+          ],
+          [
+            {"location":"California Ave SW Thriftway", "date":"1/20/2015", "link":"http://www.kirotv.com/news/news/police-look-teens-held-man-gunpoint/njsLh/"}
+          ],
+          [
+            {"location":"SeaTac", "date":"1/22/2015", "link":"http://www.kirotv.com/news/news/police-two-arrested-after-least-12-armed-robberies/njtX6/"}
+          ],
+          [
+            {"location":"Muckleshoot Casino", "date":"1/23/2015", "link":"http://www.kirotv.com/news/news/4-men-casino-customer-robbery-may-be-tied-other-ca/njts2/"}
+          ],
+          [
+            {"location":"Georgetown", "date":"1/26/2015", "link":"http://www.kirotv.com/news/news/charges-faced-after-brutal-georgetown-gas-station-/njxSR/"}
+          ],
+          [
+            {"location":"Denny International Middle School", "date":"1/29/2015", "link":"http://www.kirotv.com/news/news/student-robbed-walking-school/njzSk/"}
+          ],
+          [
+            {"location":"Capitol Hill", "date":"2/3/2015", "link":"http://www.kirotv.com/news/news/police-man-stashed-stolen-cash-between-buttocks/nj32z/"}
+          ]
+        ]
+    }
+]
