@@ -216,7 +216,7 @@ function clickPolice() {
       .outerRadius(function(d) { return Math.max(0, y(d.y + d.dy)); });
 
 
-  $.getJSON("./AssaultRobberyDS.json", function(json) {
+  $.getJSON("./preceptate/AssaultRobberyDS.json", function(json) {
   //$.getJSON("file:///C:/Users/Charles/Desktop/Spring 2015/3705Project3/Sample1.json", function(json) {
   //console.log(partition.nodes(json.children); 
    nodes = partition.nodes({children: json});
@@ -403,7 +403,7 @@ function clickNews() {
       .innerRadius(function(d) { return Math.max(0, d.y ? y(d.y) : d.y); })
       .outerRadius(function(d) { return Math.max(0, y(d.y + d.dy)); });
   //    console.log("hi");
-  $.getJSON("./NewsArticles.json", function(json) {
+  $.getJSON("./preceptate/NewsArticles.json", function(json) {
   //$.getJSON("file:///C:/Users/Charles/Desktop/Spring 2015/3705Project3/Sample1.json", function(json) {
   //console.log(partition.nodes(json.children); 
   nodes = partition.nodes({children: json});
@@ -577,7 +577,7 @@ function clickMedia() {
       .innerRadius(function(d) { return Math.max(0, d.y ? y(d.y) : d.y); })
       .outerRadius(function(d) { return Math.max(0, y(d.y + d.dy)); });
   //    console.log("hi");
-  $.getJSON("./SharesArticles.json", function(json) {
+  $.getJSON("./preceptate/SharesArticles.json", function(json) {
   //$.getJSON("file:///C:/Users/Charles/Desktop/Spring 2015/3705Project3/Sample1.json", function(json) {
   //console.log(partition.nodes(json.children); 
     nodes = partition.nodes({children: json});
@@ -790,7 +790,7 @@ var partition1 = d3.layout.partition()
       .endAngle(function(d) { return Math.max(0, Math.min(2 * Math.PI, x(d.x + d.dx))); })
       .innerRadius(function(d) { return Math.max(0, d.y ? y1(d.y) : d.y); })
       .outerRadius(function(d) { return Math.max(0, y1(d.y + d.dy)); });
-  $.getJSON("./AssaultRobberyDS.json", function(json) {
+  $.getJSON("./preceptate/AssaultRobberyDS.json", function(json) {
   //$.getJSON("file:///C:/Users/Charles/Desktop/Spring 2015/3705Project3/Sample1.json", function(json) {
   //console.log(partition.nodes(json.children); 
    nodes1 = partition.nodes({children: json});
@@ -869,7 +869,7 @@ var partition2 = d3.layout.partition()
       .innerRadius(function(d) { return Math.max(0, d.y ? y2(d.y) : d.y); })
       .outerRadius(function(d) { return Math.max(0, y2(d.y + d.dy)); });
 
- $.getJSON("./NewsArticles.json", function(json) {
+ $.getJSON("./preceptate/NewsArticles.json", function(json) {
   //$.getJSON("file:///C:/Users/Charles/Desktop/Spring 2015/3705Project3/Sample1.json", function(json) {
   //console.log(partition.nodes(json.children); 
     var nodes2 = partition.nodes({children: json});
@@ -961,7 +961,7 @@ var partition3 = d3.layout.partition()
       .innerRadius(function(d) { return Math.max(0, d.y ? y3(d.y) : d.y); })
       .outerRadius(function(d) { return Math.max(0, y3(d.y + d.dy)); });
 
-$.getJSON("./SharesArticles.json", function(json) {
+$.getJSON("./preceptate/SharesArticles.json", function(json) {
   //$.getJSON("file:///C:/Users/Charles/Desktop/Spring 2015/3705Project3/Sample1.json", function(json) {
   //console.log(partition.nodes(json.children); 
     var nodes3 = partition.nodes({children: json});
@@ -1108,7 +1108,7 @@ function BeginningScene(){
     .sort(null)
     .value(function(d) { return 5.8 - d.depth; });
 
-	$.getJSON("./AssaultRobberyDS.json", function(json) {
+	$.getJSON("./preceptate/AssaultRobberyDS.json", function(json) {
 		  var node = partitionData.nodes({children: json});
 		  var AssaultInfo = node[0].children[0];
 		  var RobberyINfo = node[0].children[1];
